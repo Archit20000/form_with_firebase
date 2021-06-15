@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Email Template</title>
+  </head>
+  <body>
+<!-- <img src="images.jpg"> -->
+    <h1>Crayon Assignment</h1>
+<button class="export" onclick="retrieveInfos()">Export</button>
+    <h3>Enter Your Information here😊</h3>
+	
+    <form class="contact-form">
+      <label for="">First Name📛</label><br />
+      <input class="firstname" type="text" placeholder="First Name" required /><br />
+      <label for="">Last Name📛</label><br />
+      <input class="lastname" type="text" placeholder="Last Name" required  /><br />
+      <label for="">Email📧</label><br />
+      <input class="email" type="email" placeholder="Email" required /><br />
+      <label for="">Contact 📱</label><br />
+      <input class="contact" type="tel" placeholder="Phone Number" required /><br />
+      <label for="">Address 🏡</label><br />
+      <textarea
+        class="address"
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Enter Address"
+	required 
+      ></textarea
+      ><br />
+<div class="alert">You have sucessfully registered!</div>
+      <button type="submit">Submit</button>
+
+      
+    </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js"></script>  
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
